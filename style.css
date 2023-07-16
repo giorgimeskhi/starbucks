@@ -91,3 +91,41 @@ header ul li a{
 .content .imgBox img{
     max-width: 340px;
 }
+.thumb{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+}
+.thumb li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.thumb li:hover{
+    transform: translateY(-15px)
+}
+.thumb li img{
+    max-width: 60px;
+}
+.socmedia{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.socmedia li {
+    list-style: none;
+}
+.socmedia li a{
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6s);
+}
