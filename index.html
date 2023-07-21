@@ -30,9 +30,9 @@
             </div>
         </div>
         <ul class="thumb"  >
-            <li><img src="img/thumb1.png" alt=""></li>
-            <li><img src="img/thumb2.png" alt=""></li>
-            <li><img src="img/thumb3.png" alt=""></li>
+            <li><img src="img/thumb1.png"  onclick="imgSlider('img1.png')"></li>
+            <li><img src="img/thumb2.png"  onclick="imgSlider('img2.png')"></li>
+            <li><img src="img/thumb3.png"  onclick="imgSlider('img3.png')"></li>
         </ul>
         <ul class="socmedia" >
             <li><a href=""><img src="img/facebook.png" alt=""></a></li>
@@ -40,5 +40,10 @@
             <li><a href=""><img src="img/twitter.png" alt=""></a></li>
         </ul>
     </section>
+    <script type="text/javascript" >
+        function imgSlider(anything){
+            document.querySelector('.starbucks').src = anything;
+        }
+    </script>
 </body>
 </html>
